@@ -26,7 +26,12 @@ module.exports = {
     activeHeaderLinks: true, 
     lastUpdated: 'Last Updated', 
     serviceWorker: {
-      updatePopup: true }
+        updatePopup: true,
+        repo: 'AlexWelcing/VuePress-NetlifyCMS',
+        repoLabel: 'Github',
+        editLinks: true,
+        docsBranch: 'master',	
+    }
     },
   }
 }
